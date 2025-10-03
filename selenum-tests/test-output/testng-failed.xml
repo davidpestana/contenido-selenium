@@ -3,14 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.ejemplo.selenium.TesttNGBBDD">
+      <class name="com.ejemplo.selenium.Testa">
         <methods>
-          <include name="testAlgo" invocation-numbers="3"/>
-          <include name="tearDown"/>
-          <include name="alComienzo"/>
-          <include name="antesDeCadaTest"/>
+          <include name="testUno"/>
         </methods>
-      </class> <!-- com.ejemplo.selenium.TesttNGBBDD -->
+      </class> <!-- com.ejemplo.selenium.Testa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
