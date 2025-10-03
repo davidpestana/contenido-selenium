@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Ejemplo</title>
+    <!-- ... -->
+</head>
+
+<body>
+    <!-- ... -->
+    <div>
+        <input type="text" id="n1"> + <input type="text" id="n2">
+        <button type="button" id="btn-suma" onclick="calcular()">Calcular</button>
+        <span id="res"></span>
+    </div>
+</body>
+<script>
+    // ...
+    function calcular() {
+        let n1 = parseFloat(document.getElementById('n1').value.replace(',','.'));
+        let n2 = parseFloat(document.getElementById('n2').value.replace(',','.'));
+        let res = n1 + n2;
+        document.getElementById('res').innerText = res;
+    }
+</script>
+
+</html>

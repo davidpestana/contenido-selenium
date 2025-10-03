@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Ejemplo</title>
+    <!-- ... -->
+</head>
+
+<body>
+    <!-- ... -->
+    <div id="caja"> cargando el boton ...</div>
+</body>
+<script>
+    function saludar() {
+        alert('Hola mundo!!!');
+    }
+    setTimeout(() => {
+        var btn = document.createElement('button');
+        btn.setAttribute('type', 'button');
+        btn.setAttribute('id', 'btn-1');
+        btn.textContent = 'Pulsar';
+        btn.addEventListener('click',saludar);
+        let caja = document.getElementById('caja')
+        caja.innerHTML = ''
+        caja.appendChild(btn);
+    }, 4000);
+</script>
+
+</html>
