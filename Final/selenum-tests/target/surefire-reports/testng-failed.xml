@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.ejemplo.selenium.Testa">
+        <methods>
+          <include name="testUno"/>
+        </methods>
+      </class> <!-- com.ejemplo.selenium.Testa -->
+      <class name="com.ejemplo.selenium.TesttNGBBDD">
+        <methods>
+          <include name="testAlgo" invocation-numbers="3"/>
+          <include name="tearDown"/>
+          <include name="alComienzo"/>
+          <include name="antesDeCadaTest"/>
+        </methods>
+      </class> <!-- com.ejemplo.selenium.TesttNGBBDD -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

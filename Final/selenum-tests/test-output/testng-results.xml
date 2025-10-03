@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-03T11:20:23Z" name="Test Grid" finished-at="2025-10-03T11:20:35Z" duration-ms="11714">
+    <groups>
+    </groups>
+    <test started-at="2025-10-03T11:20:23Z" name="Test Grid Chrome" finished-at="2025-10-03T11:20:31Z" duration-ms="7698">
+      <class name="com.ejemplo.selenium.Testa">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ejemplo.selenium.Testa@6e75aa0d]" started-at="2025-10-03T11:20:23Z" name="setup" finished-at="2025-10-03T11:20:30Z" duration-ms="7293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUno()[pri:0, instance:com.ejemplo.selenium.Testa@6e75aa0d]" started-at="2025-10-03T11:20:30Z" name="testUno" finished-at="2025-10-03T11:20:31Z" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUno -->
+      </class> <!-- com.ejemplo.selenium.Testa -->
+    </test> <!-- Test Grid Chrome -->
+    <test started-at="2025-10-03T11:20:23Z" name="Test Grid Firefox" finished-at="2025-10-03T11:20:35Z" duration-ms="11714">
+      <class name="com.ejemplo.selenium.Testa">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ejemplo.selenium.Testa@53ca01a2]" started-at="2025-10-03T11:20:23Z" name="setup" finished-at="2025-10-03T11:20:34Z" duration-ms="11453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUno()[pri:0, instance:com.ejemplo.selenium.Testa@53ca01a2]" started-at="2025-10-03T11:20:34Z" name="testUno" finished-at="2025-10-03T11:20:35Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUno -->
+      </class> <!-- com.ejemplo.selenium.Testa -->
+    </test> <!-- Test Grid Firefox -->
+  </suite> <!-- Test Grid -->
+</testng-results>
